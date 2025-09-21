@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start": "node dist/variables.js",
+    "start:functions": "node dist/functions.js",
+    "start:icecream": "node dist/ice-cream.js",
+    "dev": "tsc --watch & node --watch dist/variables.js"
+  }
+}
